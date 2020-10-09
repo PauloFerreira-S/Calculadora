@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="calculadora_de_bolso">Calculadora de Bolso</string>
+    <string name="convers_o_de_temperatura">Conversão de Temperatura</string>
+    <string name="calculadora_de_desconto">Calculadora de Desconto</string>
+    <string name="personalizar">Personalizar</string>
+    <string name="divisao">/</string>
+    <string name="multiplicacao">*</string>
+    <string name="subtracao">-</string>
+    <string name="adicao">+</string>
+    <string name="apagar">DEL</string>
+    <string name="sete">7</string>
+    <string name="oito">8</string>
+    <string name="nove">9</string>
+    <string name="quatro">4</string>
+    <string name="cinco">5</string>
+    <string name="seis">6</string>
+    <string name="um">1</string>
+    <string name="dois">2</string>
+    <string name="tres">3</string>
+    <string name="ponto">.</string>
+    <string name="zero">0</string>
+    <string name="igual">=</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="digite_o_novo_nome_do_app">Digite o novo nome do APP</string>
+    <string name="calcular">Calcular</string>
+    <string name="graus_celsius">Graus Celsius</string>
+    <string name="graus_fahrenheit">Graus Fahrenheit</string>
+    <string name="preencha_um_dos_campos_abaixo">Preencha um dos campos abaixo</string>
+    <string name="limpar">Limpar</string>
+    <string name="pre_o_original">Preço Original</string>
+    <string name="desconto_em">Desconto em %</string>
+    <string name="valor_final">Valor Final</string>
+</resources>

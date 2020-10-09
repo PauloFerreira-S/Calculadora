@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleMargin="4dp"
+        app:titleTextColor="#000000" />
+
+    <TextView
+        android:id="@+id/tvExpressao"
+        android:layout_width="wrap_content"
+        android:layout_height="80sp"
+        android:layout_gravity="end"
+        android:ellipsize="start"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="100sp"
+        android:textColor="@color/actBotao"
+        android:layout_gravity="end"
+        android:textSize="35sp"
+        android:ellipsize="end"
+        android:singleLine="true"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvDivisao"
+                style="@style/actBotaoStyle"
+                android:textColor="@android:color/black"
+                android:text="@string/divisao"/>
+            <TextView
+                android:id="@+id/tvMulti"
+                style="@style/actBotaoStyle"
+                android:textColor="@android:color/black"
+                android:text="@string/multiplicacao"/>
+            <TextView
+                android:id="@+id/tvMenos"
+                style="@style/actBotaoStyle"
+                android:textColor="@android:color/black"
+                android:text="@string/subtracao"/>
+            <TextView
+                android:id="@+id/tvMais"
+                style="@style/actBotaoStyle"
+                android:textColor="@android:color/black"
+                android:text="@string/adicao"/>
+            <TextView
+                android:id="@+id/tvApagar"
+                style="@style/actBotaoStyle"
+                android:textColor="@android:color/black"
+                android:text="@string/apagar"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvSete"
+                style="@style/numBotaoStyle"
+                android:text="@string/sete"/>
+            <TextView
+                android:id="@+id/tvOito"
+                style="@style/numBotaoStyle"
+                android:text="@string/oito"/>
+            <TextView
+                android:id="@+id/tvNove"
+                style="@style/numBotaoStyle"
+                android:text="@string/nove"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvQuatro"
+                style="@style/numBotaoStyle"
+                android:text="@string/quatro"/>
+            <TextView
+                android:id="@+id/tvCinco"
+                style="@style/numBotaoStyle"
+                android:text="@string/cinco"/>
+            <TextView
+                android:id="@+id/tvSeis"
+                style="@style/numBotaoStyle"
+                android:text="@string/seis"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvUm"
+                style="@style/numBotaoStyle"
+                android:text="@string/um"/>
+            <TextView
+                android:id="@+id/tvDois"
+                style="@style/numBotaoStyle"
+                android:text="@string/dois"/>
+            <TextView
+                android:id="@+id/tvTres"
+                style="@style/numBotaoStyle"
+                android:text="@string/tres"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvPonto"
+                style="@style/numBotaoStyle"
+                android:text="@string/ponto"/>
+            <TextView
+                android:id="@+id/tvZero"
+                style="@style/numBotaoStyle"
+                android:text="@string/zero"/>
+            <TextView
+                android:id="@+id/tvIgual"
+                style="@style/numBotaoStyle"
+                android:text="@string/igual"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
